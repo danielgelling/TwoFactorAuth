@@ -1,0 +1,22 @@
+{
+    "name": "danielgelling/twofactor",
+    "description": "This plugin provides a Two Factor Authentication interface for logging into the wp-admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Gelling",
+            "email": "daniel@deaannemers.nl"
+        }
+    ],
+    "require": {
+        "php": "5.5.*",
+        "messagebird/php-rest-api": "1.4.x",
+        "illuminate/database": "5.2.7",
+        "nesbot/carbon": "~1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielGelling\\": "src/"
+        }
+    }
+}
