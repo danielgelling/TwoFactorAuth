@@ -26,7 +26,7 @@
 |
 */
 
-define('MESSAGEBIRD_API_KEY', 'live_Ptkbe1FgbEAfSNVXDkPFWaZQH');
+define('MESSAGEBIRD_API_KEY', '');
 define('TWO_FACTOR_EXPIRES_IN', 30);
 define('TWO_FACTOR_AUTH_TABLE', 'two_factor_logins');
 
@@ -41,8 +41,8 @@ define('TWO_FACTOR_AUTH_TABLE', 'two_factor_logins');
 |
 */
 
-define('CODE_TEXT_MESSAGE_SENDER', 'Psy-zo');
-define('CODE_TEXT_MESSAGE_CONTENT', 'Je code is: ');
+define('CODE_TEXT_MESSAGE_SENDER', 'Your company\'s name');
+define('CODE_TEXT_MESSAGE_CONTENT', 'Your code is: ');
 
 
 /*
@@ -55,8 +55,8 @@ define('CODE_TEXT_MESSAGE_CONTENT', 'Je code is: ');
 |
 */
 
-define('CODE_INVALID_MESSAGE', 'Code ongeldig');
+define('CODE_INVALID_MESSAGE', 'Invalid code');
 define(
     'CODE_INVALID_MESSAGE_DESCRIPTION',
-    'Je hebt een ongeldige verificatiecode ingevuld.'
+    'You provided an invalid authentication code.'
 );
