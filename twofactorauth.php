@@ -11,6 +11,7 @@ Version: 1.0
 */
 
 require_once 'vendor/autoload.php';
+require_once 'src/UserProfile.php';
 
 if(dirname(__FILE__) . '/../../../wp-includes/pluggable.php')
     require_once dirname(__FILE__) . '/../../../wp-includes/pluggable.php';
