@@ -57,7 +57,7 @@ if(
 /**
 * Check if a login is posted.
 */
-if($_POST['log'] && $_POST['pwd'])
+if(isset($_POST['log']) && isset($_POST['pwd']))
 {
     $user = wp_authenticate($_POST['log'], $_POST['pwd']);
 

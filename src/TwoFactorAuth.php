@@ -81,8 +81,12 @@ class TwoFactorAuth
             str_replace(
                 '{{ username }}',
                 $username,
-                file_get_contents(
-                    dirname(__FILE__) . '../../views/twofactor_form.php'
+                str_replace(
+                    '{{ site_url }}',
+                    get_site_url(),
+                    file_get_contents(
+                        dirname(__FILE__) . '../../views/twofactor_form.php'
+                    )
                 )
             )
         );
