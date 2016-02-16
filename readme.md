@@ -8,12 +8,6 @@
 
 TwoFactorAuth is a Wordpress plugin that will add an extra layer of security to your Wordpress installation. It sends a text message via the MessageBird API when someone tries to login to the Wordpress Admin.
 
-## Contiburing
-
-Thank you for considering to contribute to our plugin. It is open-source and everyone can create a pull request. These will be evaluated on security and code quality. We tend to PSR4 standards, but when it's good, we'll refactor it for you if you can't.
-
-Our Github repository can be found at [https://github.com/danielgelling/twofactorauth](github.com/danielgelling/twofactorauth).
-
 ## Installation
 
 ### Via composer
